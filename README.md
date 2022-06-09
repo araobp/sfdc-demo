@@ -1,5 +1,4 @@
-# sfdc-demo
- SFDC demo apps
+# SFDC demo apps
 
 (Work in progress...)
 
