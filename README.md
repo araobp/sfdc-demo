@@ -1,7 +1,18 @@
 # sfdc-demo
  SFDC demo apps
 
+(Work in progress...)
+
 ## Integration demo
+
+
+```
+    [react-api]---REST API---[spring-api]---Heroku connect---[Salesforce cloud]
+                                  |
+                               REST API
+                                  |
+                             [unity-api]
+```
 
 - [spring-api](https://github.com/araobp/spring-api)
 - [react-api](https://github.com/araobp/react-api)
