@@ -21,7 +21,7 @@ Reference: [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en
 - [react-api](https://github.com/araobp/react-api) -- React-based fronend for manipulating database remotely
 - [unity-api](https://github.com/araobp/unity-api) -- Unity-based frontend for 3D visualization
 
-## LWC demo
+## LWC & APEX demo
 
 - [lwc-samples](https://github.com/araobp/lwc-samples)
 
