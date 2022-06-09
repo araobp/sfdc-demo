@@ -10,11 +10,11 @@ This is going to be a "Forceunity - Visualize your Salesforce Org in Unity!" lik
 Reference: [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en/content/learn/modules/salesforce_heroku_integration)
 
 ```
-    [react-api]---REST API---[spring-api]---Heroku connect---[Salesforce cloud]
-                                  |
-                               REST API
-                                  |
-                             [unity-api]
+    [react-api]---REST API---[spring-api on Heroku]---Heroku connect---[Salesforce cloud]
+                                       |
+                                   REST API
+                                       |
+                                  [unity-api]
 ```
 
 - [spring-api](https://github.com/araobp/spring-api) -- SpringBoot-based backend as API server with PostgreSQL
