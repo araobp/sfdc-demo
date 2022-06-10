@@ -2,7 +2,7 @@
 
 ## Skeleton for Salesforce & Heroku Integration demo
 
-This is going to be a "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtube video](https://youtu.be/eb3GgM1o_8I).
+This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtube video](https://youtu.be/eb3GgM1o_8I).
 
 Reference: [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en/content/learn/modules/salesforce_heroku_integration)
 
