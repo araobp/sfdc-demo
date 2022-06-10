@@ -1,4 +1,4 @@
-# SFDC demo apps
+# SFDC(Salesforce dot com) demo apps
 
 ## Skeleton for Salesforce & Heroku Integration demo
 
