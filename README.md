@@ -1,6 +1,6 @@
 # SFDC demo apps
 
-(Work in progress...)
+<img src="./doc/BoxListView.png" width=900>
 
 ## Skeleton for Salesforce & Heroku Integration demo
 
