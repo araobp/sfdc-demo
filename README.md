@@ -10,9 +10,13 @@ Reference: [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en
 
 <img src="./doc/BoxListView.png" width=900>
 
+### "Boxes" on React
+
+<img src="./doc/BoxesOnReact.png" width=400>
+
 ### "Boxes" on Unity
 
-<img src="./doc/BoxesOnUnity.png" width=500>
+<img src="./doc/BoxesOnUnity.png" width=400>
 
 ### Demo system architecture
 
