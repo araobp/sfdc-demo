@@ -14,6 +14,7 @@ Reference: [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en
 ### Demo system architecture
 
 ```
+                                 "box__c" table  <- - - - in sync - - ->  "Box" object
     [react-api]---REST API---[spring-api on Heroku]---Heroku connect---[Salesforce Cloud]
                                        |
                                    REST API
