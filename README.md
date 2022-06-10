@@ -1,18 +1,19 @@
 # SFDC demo apps
 
-## "Box" custom object on Salesforce Cloud
-
-<img src="./doc/BoxListView.png" width=900>
-
 ## Skeleton for Salesforce & Heroku Integration demo
 
 This is going to be a "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtube video](https://youtu.be/eb3GgM1o_8I).
 
 Reference: [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en/content/learn/modules/salesforce_heroku_integration)
 
-```
-                         Demo system architecture
+### "Box" custom object on Salesforce Cloud
 
+<img src="./doc/BoxListView.png" width=900>
+
+
+### Demo system architecture
+
+```
     [react-api]---REST API---[spring-api on Heroku]---Heroku connect---[Salesforce Cloud]
                                        |
                                    REST API
