@@ -11,7 +11,7 @@ Reference: [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en
 ```
                          Demo system architecture
 
-    [react-api]---REST API---[spring-api on Heroku]---Heroku connect---[Salesforce cloud]
+    [react-api]---REST API---[spring-api on Heroku]---Heroku connect---[Salesforce Cloud]
                                        |
                                    REST API
                                        |
