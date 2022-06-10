@@ -1,5 +1,7 @@
 # SFDC demo apps
 
+## "Box" custom object on Salesforce Cloud
+
 <img src="./doc/BoxListView.png" width=900>
 
 ## Skeleton for Salesforce & Heroku Integration demo
