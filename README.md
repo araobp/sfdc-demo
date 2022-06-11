@@ -1,6 +1,6 @@
-# SFDC(Salesforce dot com) demo apps
+# SFDC(Salesforce dot com) integration demo
 
-## Skeleton for Salesforce & Heroku Integration demo
+## Skeleton for Salesforce & Heroku Integration
 
 This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtube video](https://youtu.be/eb3GgM1o_8I).
 
