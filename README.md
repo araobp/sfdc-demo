@@ -4,8 +4,6 @@
 
 This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtube video](https://youtu.be/eb3GgM1o_8I).
 
-Reference: [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en/content/learn/modules/salesforce_heroku_integration)
-
 ### "Box" custom object on Salesforce Cloud
 
 <img src="./doc/BoxListView.png" width=900>
@@ -39,3 +37,7 @@ Reference: [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en
 
 - [lwc-samples](https://github.com/araobp/lwc-samples)
 
+## Reference and tools
+
+- [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en/content/learn/modules/salesforce_heroku_integration)
+- [JSON2APEX](https://json2apex.herokuapp.com/)
