@@ -43,3 +43,4 @@ This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtub
 - [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en/content/learn/modules/salesforce_heroku_integration)
 - [APEX Integration Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services)
 - [JSON2APEX](https://json2apex.herokuapp.com/)
+- [Lightning Web Components and Salesforce Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning-web-components-and-salesforce-data)
