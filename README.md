@@ -4,7 +4,7 @@
 
 This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtube video](https://youtu.be/eb3GgM1o_8I).
 
-### "Box" custom object on Salesforce Cloud
+### "Box" custom object in list view on Salesforce Cloud
 
 <img src="./doc/BoxListView.png" width=900>
 
