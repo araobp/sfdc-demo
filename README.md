@@ -2,7 +2,7 @@
 
 This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtube video](https://youtu.be/eb3GgM1o_8I).
 
-## Demo system architecture
+## Architecture
 
 ```
                                  "box__c" table  <- - - - in sync - - ->  "Box" object
