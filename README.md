@@ -16,6 +16,10 @@ This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtub
 
 <img src="./doc/BoxesOnUnity.png" width=400>
 
+### "Boxes" on Lightning Web Components and APEX
+
+<img src="./doc/BoxesOnLWC.png" width=450>
+
 ### Demo system architecture
 
 ```
@@ -32,11 +36,7 @@ This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtub
 - [spring-api](https://github.com/araobp/spring-api) -- SpringBoot-based backend as API server with PostgreSQL
 - [react-api](https://github.com/araobp/react-api) -- React-based fronend for manipulating database remotely
 - [unity-api](https://github.com/araobp/unity-api) -- Unity-based frontend for 3D visualization
-- (lwc-based UI to be developed soon...)
-
-## LWC & APEX demo
-
-- [lwc-samples](https://github.com/araobp/lwc-samples)
+- ["Box" Lightning Web Component and its accompanying APEX code]()
 
 ## Reference and tools
 
