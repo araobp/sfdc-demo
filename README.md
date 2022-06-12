@@ -1,8 +1,21 @@
 # SFDC(Salesforce dot com) integration demo
 
-## Skeleton for Salesforce & Heroku Integration
+Skeleton for Salesforce & Heroku Integration
 
 This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtube video](https://youtu.be/eb3GgM1o_8I).
+
+## Demo system architecture
+
+```
+                                 "box__c" table  <- - - - in sync - - ->  "Box" object
+    [react-api]---REST API---[spring-api on Heroku]---Heroku connect---[Salesforce Cloud]
+                                       |
+                                   REST API
+                                       |
+                                  [unity-api]
+```
+
+## UIs
 
 ### "Box" custom object in list view on Salesforce Cloud
 
@@ -20,16 +33,9 @@ This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtub
 
 <img src="./doc/BoxesOnUnity.png" width=400>
 
-### Demo system architecture
+## Box custom object definition on Salesforce Cloud
 
-```
-                                 "box__c" table  <- - - - in sync - - ->  "Box" object
-    [react-api]---REST API---[spring-api on Heroku]---Heroku connect---[Salesforce Cloud]
-                                       |
-                                   REST API
-                                       |
-                                  [unity-api]
-```
+<img src="./doc/BoxObject.jpg" width=700>
 
 ### Projects
 
