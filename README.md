@@ -1,6 +1,4 @@
-# SFDC(Salesforce dot com) integration demo
-
-Skeleton for Salesforce & Heroku Integration
+# Salesforce & Heroku Integration demo
 
 This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtube video](https://youtu.be/eb3GgM1o_8I).
 
@@ -23,7 +21,7 @@ This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtub
 
 ### "Box" Lightning Web Components and APEX on Salesforce Cloud
 
-<img src="./doc/BoxesOnLWC.png" width=450>
+<img src="./doc/BoxesOnLWC.png" width=400>
 
 ### "Boxes" on React
 
@@ -35,7 +33,7 @@ This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtub
 
 ## Box custom object definition on Salesforce Cloud
 
-<img src="./doc/BoxObject.jpg" width=700>
+<img src="./doc/BoxObject.jpg" width=800>
 
 ### Projects
 
