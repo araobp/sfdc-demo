@@ -15,19 +15,19 @@ My original Salesforce & Heroku Integration demo.
 
 ## UIs
 
-### "Box" custom object in list view on Salesforce Cloud
+#### "Box" custom object in list view on Salesforce Cloud
 
 <img src="./doc/BoxListView.png" width=900>
 
-### "Box" Lightning Web Components and APEX on Salesforce Cloud
+#### "Box" Lightning Web Components and APEX on Salesforce Cloud
 
 <img src="./doc/BoxesOnLWC.png" width=400>
 
-### "Boxes" on React
+#### "Boxes" on React
 
 <img src="./doc/BoxesOnReact.png" width=400>
 
-### "Boxes" on Unity
+#### "Boxes" on Unity
 
 <img src="./doc/BoxesOnUnity.png" width=400>
 
@@ -35,7 +35,7 @@ My original Salesforce & Heroku Integration demo.
 
 <img src="./doc/BoxObject.jpg" width=800>
 
-### Projects
+## Projects
 
 - [spring-api](https://github.com/araobp/spring-api) -- SpringBoot-based backend as API server with PostgreSQL
 - [react-api](https://github.com/araobp/react-api) -- React-based fronend for manipulating database remotely
