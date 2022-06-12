@@ -4,14 +4,7 @@ My original Salesforce & Heroku Integration demo.
 
 ## Architecture
 
-```
-                                 "box__c" table  <- - - - in sync - - ->  "Box" object
-    [react-api]---REST API---[spring-api on Heroku]---Heroku connect---[Salesforce Cloud]
-                                       |
-                                   REST API
-                                       |
-                                  [unity-api]
-```
+<img src="doc/SalesforceAndHerokuIntegration.png" width=700>
 
 ## UIs
 
