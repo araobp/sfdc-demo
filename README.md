@@ -1,26 +1,8 @@
-# SFDC(Salesforce dot com) integration demo
+# Salesforce & Heroku Integration demo
 
-## Skeleton for Salesforce & Heroku Integration
+My original Salesforce & Heroku Integration demo.
 
-This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtube video](https://youtu.be/eb3GgM1o_8I).
-
-### "Box" custom object in list view on Salesforce Cloud
-
-<img src="./doc/BoxListView.png" width=900>
-
-### "Box" Lightning Web Components and APEX on Salesforce Cloud
-
-<img src="./doc/BoxesOnLWC.png" width=450>
-
-### "Boxes" on React
-
-<img src="./doc/BoxesOnReact.png" width=400>
-
-### "Boxes" on Unity
-
-<img src="./doc/BoxesOnUnity.png" width=400>
-
-### Demo system architecture
+## Architecture
 
 ```
                                  "box__c" table  <- - - - in sync - - ->  "Box" object
@@ -31,7 +13,29 @@ This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtub
                                   [unity-api]
 ```
 
-### Projects
+## UIs
+
+#### "Box" custom object in list view on Salesforce Cloud
+
+<img src="./doc/BoxListView.png" width=900>
+
+#### "Box" Lightning Web Components and APEX on Salesforce Cloud
+
+<img src="./doc/BoxesOnLWC.png" width=400>
+
+#### "Boxes" on React
+
+<img src="./doc/BoxesOnReact.png" width=400>
+
+#### "Boxes" on Unity
+
+<img src="./doc/BoxesOnUnity.png" width=400>
+
+## Box custom object definition on Salesforce Cloud
+
+<img src="./doc/BoxObject.jpg" width=800>
+
+## Projects
 
 - [spring-api](https://github.com/araobp/spring-api) -- SpringBoot-based backend as API server with PostgreSQL
 - [react-api](https://github.com/araobp/react-api) -- React-based fronend for manipulating database remotely
@@ -44,3 +48,5 @@ This is "Forceunity - Visualize your Salesforce Org in Unity!" like [this youtub
 - [APEX Integration Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services)
 - [JSON2APEX](https://json2apex.herokuapp.com/)
 - [Lightning Web Components and Salesforce Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning-web-components-and-salesforce-data)
+- [Forcecraft - Visualize your Salesforce Org in Minecraft!](https://youtu.be/eb3GgM1o_8I).
+
