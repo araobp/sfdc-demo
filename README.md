@@ -44,8 +44,9 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [Lightning Web Components and Salesforce Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning-web-components-and-salesforce-data)
 - [Forcecraft - Visualize your Salesforce Org in Minecraft!](https://youtu.be/eb3GgM1o_8I).
 
-#### Tool
+#### Tools
 
+- [JSforce](https://jsforce.github.io/)
 - [JSON2APEX](https://json2apex.herokuapp.com/)
 
 #### Salesforce tips
