@@ -43,6 +43,10 @@ My original Salesforce & Heroku Integration demo.
 - [Lightning Web Components and Salesforce Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning-web-components-and-salesforce-data)
 - [Forcecraft - Visualize your Salesforce Org in Minecraft!](https://youtu.be/eb3GgM1o_8I).
 
+## Salesforce-SAP integration vendor
+
+- [Vigience](https://www.vigience.com/)
+
 ## Salesforce tips
 
 - [{"error":"invalid_grant","error_description":"authentication failure"}](https://salesforce.stackexchange.com/questions/339872/errorinvalid-grant-error-descriptionauthentication-failure)
