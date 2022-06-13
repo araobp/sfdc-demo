@@ -45,5 +45,5 @@ My original Salesforce & Heroku Integration demo.
 
 ## Tips
 
-- [{"error":"invalid_grant","error_description":"authentication failure"}](https://salesforce.stackexchange.com/questions/339872/errorinvalid-grant-error-descriptionauthentication-failure]
+- [{"error":"invalid_grant","error_description":"authentication failure"}](https://salesforce.stackexchange.com/questions/339872/errorinvalid-grant-error-descriptionauthentication-failure)
 
