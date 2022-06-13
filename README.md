@@ -35,23 +35,6 @@ My original Salesforce & Heroku Integration demo.
 - [unity-api](https://github.com/araobp/unity-api) -- Unity-based frontend for 3D visualization
 - ["Box" Lightning Web Component and its accompanying APEX code](box/force-app/main/default)
 
-## Reference and tools
-
-- [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en/content/learn/modules/salesforce_heroku_integration)
-- [APEX Integration Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services)
-- [JSON2APEX](https://json2apex.herokuapp.com/)
-- [Lightning Web Components and Salesforce Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning-web-components-and-salesforce-data)
-- [Forcecraft - Visualize your Salesforce Org in Minecraft!](https://youtu.be/eb3GgM1o_8I).
-
-## Salesforce-SAP integration vendor
-
-- [Vigience](https://www.vigience.com/)
-
-## Salesforce tips
-
-- [{"error":"invalid_grant","error_description":"authentication failure"}](https://salesforce.stackexchange.com/questions/339872/errorinvalid-grant-error-descriptionauthentication-failure)
-- [View instance information for your Salesforce Organization](https://help.salesforce.com/s/articleView?id=000322728&type=1)
-
 ## cURL example to fetch a Case record from Salesforce Cloud
 
 In case of this Trailhead module "[APEX Integration Services, APEX Web Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices)",
@@ -63,3 +46,26 @@ curl -v https://login.salesforce.com/services/oauth2/token --header 'Content-Typ
 [2] Include the acecss token in a REST request to fetch a Case record:
 curl https://<your_instance>.my.salesforce.com/services/apexrest/Cases/<Record_ID> -H "Authorization: Bearer <your_session_id>" -H "X-PrettyPrint:1"
 ```
+
+## References
+
+#### Trailhead
+
+- [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en/content/learn/modules/salesforce_heroku_integration)
+- [APEX Integration Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services)
+- [Lightning Web Components and Salesforce Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning-web-components-and-salesforce-data)
+- [Forcecraft - Visualize your Salesforce Org in Minecraft!](https://youtu.be/eb3GgM1o_8I).
+
+#### Tool
+
+- [JSON2APEX](https://json2apex.herokuapp.com/)
+
+#### Salesforce tips
+
+- [{"error":"invalid_grant","error_description":"authentication failure"}](https://salesforce.stackexchange.com/questions/339872/errorinvalid-grant-error-descriptionauthentication-failure)
+- [View instance information for your Salesforce Organization](https://help.salesforce.com/s/articleView?id=000322728&type=1)
+
+#### Salesforce-SAP integration
+
+- [Vigience](https://www.vigience.com/)
+- [Mulesoft](https://www.mulesoft.com/resources/esb/sap-salesforce-integration#:~:text=When%20SAP%20and%20Salesforce%20are,entry%2C%20saving%20time%20and%20money)
