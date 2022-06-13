@@ -35,18 +35,6 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [unity-api](https://github.com/araobp/unity-api) -- Unity-based frontend for 3D visualization
 - ["Box" Lightning Web Component and its accompanying APEX code](box/force-app/main/default)
 
-## cURL example to fetch a Case record from Salesforce Cloud
-
-In case of this Trailhead module "[APEX Integration Services, APEX Web Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices)",
-
-```
-[1] Obtain an access token:
-curl -v https://login.salesforce.com/services/oauth2/token --header 'Content-Type: application/x-www-form-urlencoded' --data-urlencode "grant_type=password" --data-urlencode "client_id=<your_consumer_key>" --data-urlencode "client_secret=<your_consumer_secret>" --data-urlencode "username=<your_username>" --data-urlencode "password=<your_password_and_security_token>" -H "X-PrettyPrint:1"
-
-[2] Include the acecss token in a REST request to fetch a Case record:
-curl https://<your_instance>.my.salesforce.com/services/apexrest/Cases/<Record_ID> -H "Authorization: Bearer <your_session_id>" -H "X-PrettyPrint:1"
-```
-
 ## References
 
 #### Trailhead
@@ -69,3 +57,15 @@ curl https://<your_instance>.my.salesforce.com/services/apexrest/Cases/<Record_I
 
 - [Vigience](https://www.vigience.com/)
 - [Mulesoft](https://www.mulesoft.com/resources/esb/sap-salesforce-integration#:~:text=When%20SAP%20and%20Salesforce%20are,entry%2C%20saving%20time%20and%20money)
+
+#### cURL example to fetch a Case record from Salesforce Cloud
+
+In case of this Trailhead module "[APEX Integration Services, APEX Web Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices)",
+
+```
+[1] Obtain an access token:
+curl -v https://login.salesforce.com/services/oauth2/token --header 'Content-Type: application/x-www-form-urlencoded' --data-urlencode "grant_type=password" --data-urlencode "client_id=<your_consumer_key>" --data-urlencode "client_secret=<your_consumer_secret>" --data-urlencode "username=<your_username>" --data-urlencode "password=<your_password_and_security_token>" -H "X-PrettyPrint:1"
+
+[2] Include the acecss token in a REST request to fetch a Case record:
+curl https://<your_instance>.my.salesforce.com/services/apexrest/Cases/<Record_ID> -H "Authorization: Bearer <your_session_id>" -H "X-PrettyPrint:1"
+```
