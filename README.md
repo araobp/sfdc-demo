@@ -48,9 +48,9 @@ My original Salesforce & Heroku Integration demo.
 - [{"error":"invalid_grant","error_description":"authentication failure"}](https://salesforce.stackexchange.com/questions/339872/errorinvalid-grant-error-descriptionauthentication-failure)
 - [View instance information for your Salesforce Organization](https://help.salesforce.com/s/articleView?id=000322728&type=1)
 
-## cURL example to fetch a Case record
+## cURL example to fetch a Case record from Salesforce Cloud
 
-In case of this Trailhead module [APEX Integration Services, APEX Web Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices),
+In case of this Trailhead module "[APEX Integration Services, APEX Web Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices)",
 
 ```
 [1] Obtain an access token:
