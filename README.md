@@ -48,3 +48,12 @@ My original Salesforce & Heroku Integration demo.
 - [{"error":"invalid_grant","error_description":"authentication failure"}](https://salesforce.stackexchange.com/questions/339872/errorinvalid-grant-error-descriptionauthentication-failure)
 - [View instance information for your Salesforce Organization](https://help.salesforce.com/s/articleView?id=000322728&type=1)
 
+## cURL example to fetch a Case record
+
+```
+[1] Obtain an access token:
+curl -v https://login.salesforce.com/services/oauth2/token --header 'Content-Type: application/x-www-form-urlencoded' --data-urlencode "grant_type=password" --data-urlencode "client_id=<your_consumer_key>" --data-urlencode "client_secret=<your_consumer_secret>" --data-urlencode "username=<your_username>" --data-urlencode "password=<your_password_and_security_token>" -H "X-PrettyPrint:1"
+
+[2] Include the acecss token in a REST request to fetch a Case record:
+curl https://<your_instance>.my.salesforce.com/services/apexrest/Cases/<Record_ID> -H "Authorization: Bearer <your_session_id>" -H "X-PrettyPrint:1"
+```
