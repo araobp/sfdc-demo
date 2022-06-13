@@ -50,6 +50,8 @@ My original Salesforce & Heroku Integration demo.
 
 ## cURL example to fetch a Case record
 
+In case of this Trailhead module [APEX Integration Services, APEX Web Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices),
+
 ```
 [1] Obtain an access token:
 curl -v https://login.salesforce.com/services/oauth2/token --header 'Content-Type: application/x-www-form-urlencoded' --data-urlencode "grant_type=password" --data-urlencode "client_id=<your_consumer_key>" --data-urlencode "client_secret=<your_consumer_secret>" --data-urlencode "username=<your_username>" --data-urlencode "password=<your_password_and_security_token>" -H "X-PrettyPrint:1"
