@@ -1,6 +1,6 @@
 # Salesforce & Heroku Integration demo
 
-My original Salesforce & Heroku Integration demo.
+My original Salesforce & Heroku Integration demo. It is very simple.
 
 ## Architecture
 
