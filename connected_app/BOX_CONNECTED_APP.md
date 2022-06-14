@@ -28,4 +28,4 @@ DEV_EDITION_BOX_CONSUMER_SECRET;
 
 ## APEX classes as a REST API service for "Box" custom object
 
-./apex/force-app/main/default/classes
+(./apex/force-app/main/default/classes)
