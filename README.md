@@ -60,7 +60,7 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [Vigience](https://www.vigience.com/)
 - [Mulesoft](https://www.mulesoft.com/resources/esb/sap-salesforce-integration#:~:text=When%20SAP%20and%20Salesforce%20are,entry%2C%20saving%20time%20and%20money)
 
-#### cURL example to fetch a Case record from Salesforce Cloud
+#### tips: cURL example to fetch a Case record from Salesforce Cloud
 
 In case of this Trailhead module "[APEX Integration Services, APEX Web Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices)",
 
