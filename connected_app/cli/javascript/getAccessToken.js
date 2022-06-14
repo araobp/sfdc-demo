@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { fetchAccessToken } from './boxApi.js';
 
 const test = async () => {

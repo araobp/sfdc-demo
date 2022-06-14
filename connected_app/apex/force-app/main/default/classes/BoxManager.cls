@@ -6,7 +6,7 @@ global with sharing class BoxManager {
 
         String boxIdStr = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1);
         Decimal boxId = Decimal.valueOf(boxIdStr);
-        Box__c box = [SELECT Id__c, Move__c FROM Box__c WHERE Id__c = :boxId];
+        Box__c box = [SELECT Id__c, Name, Move__c FROM Box__c WHERE Id__c = :boxId];
         return box;
     }
 }
