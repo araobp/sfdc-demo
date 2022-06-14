@@ -21,10 +21,17 @@ DEV_EDITION_BOX_CONSUMER_KEY;
 DEV_EDITION_BOX_CONSUMER_SECRET;
 ```
 
-#### Fetch an access token from the Saleforce connected app
+#### CLI/shell
 
-- [shell](./fetch_access_token.sh)
-- [javascrip](./fetch_access_token.js)
+- [Get Access Token](./cli/shell/get_access_token.sh)
+- [Get Box by Id](./cli/shell/get_box_by_id.sh)
+
+#### CLI/JavaScript
+
+- [Get Access Token](./cli/javascript/getAccessToken.js)
+- [Get Box statuses](./cli/javascript/getBoxStatus.js)
+- [Get Box by Id](./cli/javascript/getBoxByid.js)
+- [Patch Box status by Id](./cli/javascript/patchBoxById.js)
 
 ## APEX classes as a REST API service for "Box" custom object
 
