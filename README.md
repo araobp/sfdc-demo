@@ -71,3 +71,18 @@ curl -v https://login.salesforce.com/services/oauth2/token --header 'Content-Typ
 [2] Include the acecss token in a REST request to fetch a Case record:
 curl https://<your_instance>.my.salesforce.com/services/apexrest/Cases/<Record_ID> -H "Authorization: Bearer <your_session_id>" -H "X-PrettyPrint:1"
 ```
+
+## Afternote
+
+After having implemented this simple integration app, I think APEX, SOQL and DML are really cool!
+
+Just one line to fetch fields from a table,
+```
+Box__c box = [SELECT Id__c, Name, Move__c FROM Box__c WHERE Id__c = :boxId];
+```
+
+Just one line to update a record,
+```
+thisBox.Move__c = move;
+update thisBox;
+```
