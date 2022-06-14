@@ -34,7 +34,7 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [react-api](https://github.com/araobp/react-api) -- React-based fronend for manipulating database remotely
 - [unity-api](https://github.com/araobp/unity-api) -- Unity-based frontend for 3D visualization
 - ["Box" Lightning Web Component and its accompanying APEX code](box/force-app/main/default)
-- "Box" connected app (work in progress)
+- ["Box" connected app](./connected_app/BOX_CONNECTED_APP.md] (work in progress)
 
 ## References
 
