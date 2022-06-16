@@ -6,6 +6,8 @@ I have set up a connected app "Box" on my Salesforce devlopment edition.
 
 [cli](./cli) folder has CLIs to manipulate "Box" object remotely from a console.
 
+[cli2](./cli2) folder has CLIs that use Salesforce standard REST APIs.
+
 Requirements:
 - Shell
 - Node.js 18
@@ -32,6 +34,11 @@ DEV_EDITION_BOX_CONSUMER_SECRET;
 - [Get Box statuses](./cli/javascript/getBoxStatus.js)
 - [Get Box by Id](./cli/javascript/getBoxByid.js)
 - [Patch Box status by Id](./cli/javascript/patchBoxById.js)
+
+#### CLI2/JavaScript
+
+- [list organization limits](./cli2/listOrganizationLimits.js)
+- [get Box statuses](./cli2/listBoxes.js)
 
 ## APEX classes as a REST API service for "Box" custom object
 
