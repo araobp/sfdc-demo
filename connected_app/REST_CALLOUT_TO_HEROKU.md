@@ -2,9 +2,9 @@
 
 
 ```
-                                   Trigger
-                                  APEX code
-    [Heroku] <---- REST ----- [Salesforce Cloud]
+                                        Trigger
+/box/{id__c}/count                      APEX code
+    [Heroku] <---- REST PATCH ----- [Salesforce Cloud]
 
 ```
 
