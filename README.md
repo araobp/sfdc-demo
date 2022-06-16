@@ -34,7 +34,8 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [react-api](https://github.com/araobp/react-api) -- React-based fronend for manipulating database remotely
 - [unity-api](https://github.com/araobp/unity-api) -- Unity-based frontend for 3D visualization
 - ["Box" Lightning Web Component and its accompanying APEX code](box/force-app/main/default)
-- ["Box" connected app](./connected_app/BOX_CONNECTED_APP.md) (work in progress)
+- [CLI("Box" connected app)](./connected_app/BOX_CONNECTED_APP.md)
+- APEX REST Callout to Heroku (Work in progress)
 
 ## References
 
@@ -60,7 +61,7 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [Vigience](https://www.vigience.com/)
 - [Mulesoft](https://www.mulesoft.com/resources/esb/sap-salesforce-integration#:~:text=When%20SAP%20and%20Salesforce%20are,entry%2C%20saving%20time%20and%20money)
 
-#### cURL example to fetch a Case record from Salesforce Cloud
+#### tips: cURL example to fetch a Case record from Salesforce Cloud
 
 In case of this Trailhead module "[APEX Integration Services, APEX Web Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices)",
 
@@ -70,4 +71,19 @@ curl -v https://login.salesforce.com/services/oauth2/token --header 'Content-Typ
 
 [2] Include the acecss token in a REST request to fetch a Case record:
 curl https://<your_instance>.my.salesforce.com/services/apexrest/Cases/<Record_ID> -H "Authorization: Bearer <your_session_id>" -H "X-PrettyPrint:1"
+```
+
+## Afternote
+
+After having implemented this simple integration app, I think APEX, SOQL and DML are really cool!
+
+Just one line to fetch fields from a table,
+```
+Box__c box = [SELECT Id__c, Name, Move__c FROM Box__c WHERE Id__c = :boxId];
+```
+
+Just one line to update a record,
+```
+thisBox.Move__c = move;
+update thisBox;
 ```
