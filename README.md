@@ -43,6 +43,7 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 
 - [Salesforce & Heroku Integration](https://trailhead.salesforce.com/en/content/learn/modules/salesforce_heroku_integration)
 - [Apex Integration Services](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services)
+- [Set up authorization for a connected app](https://developer.salesforce.com/docs/atlas.en-us.224.0.chatterapi.meta/chatterapi/CR_quickstart_oauth.htm?_ga=2.5544307.1994630704.1652930169-91847829.1642576173)
 - [Asynchronous Apex](https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex)
 - [Lightning Web Components and Salesforce Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning-web-components-and-salesforce-data)
 - [Forcecraft - Visualize your Salesforce Org in Minecraft!](https://youtu.be/eb3GgM1o_8I).
