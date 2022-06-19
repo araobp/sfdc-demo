@@ -39,6 +39,7 @@ export const fetchAccessToken = async () => {
     return data['access_token'];
 }
 
+// Caveat: this function works for one chunk body only.
 export const decode = async (res) => {
     const reader = res.body.getReader();
     const result = await reader.read();
