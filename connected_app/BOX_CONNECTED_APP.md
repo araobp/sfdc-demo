@@ -38,7 +38,7 @@ DEV_EDITION_BOX_CONSUMER_SECRET;
 #### CLI2/JavaScript
 
 - [list organization limits](./cli2/listOrganizationLimits.js)
-- [get Box statuses](./cli2/listBoxes.js)
+- [get Box statuses (with SOQL query)](./cli2/listBoxes.js)
 
 ## APEX classes as a REST API service for "Box" custom object
 
