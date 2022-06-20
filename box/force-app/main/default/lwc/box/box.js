@@ -32,17 +32,17 @@ export default class Box extends LightningElement {
             case this.MOVE_BOX0:
                 console.log('Box0');
                 console.log(option);
-                moveBox({id: 0, move: move});
+                moveBox({ id: 0, move: move });
                 break;
             case this.MOVE_BOX1:
                 console.log('Box1');
                 console.log(option);
-                moveBox({id: 1, move: move});
+                moveBox({ id: 1, move: move });
                 break;
             case this.MOVE_BOX2:
                 console.log('Box2');
                 console.log(option);
-                moveBox({id: 2, move: move});
+                moveBox({ id: 2, move: move });
                 break;
             default:
                 break;
@@ -51,9 +51,9 @@ export default class Box extends LightningElement {
 
     updateBoxes = () => {
         getBoxes()
-        .then(boxes => {
+            .then(boxes => {
                 this.boxes = boxes;
-                console.log(boxes);
+                // console.log(boxes);
                 boxes.forEach(b => {
                     switch (b.Id__c) {
                         case 0:
@@ -69,14 +69,13 @@ export default class Box extends LightningElement {
                             break;
                     }
                 });
-        
-            }
-        )
+
+            })
     }
 
     connectedCallback() {
         this.timer = setInterval(() => {
-            this.updateBoxes();        
+            this.updateBoxes();
         }, INTERVAL);
     }
     disconnectedCallback() {

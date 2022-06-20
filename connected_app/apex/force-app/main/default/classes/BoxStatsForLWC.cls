@@ -1,14 +1,7 @@
 public with sharing class BoxStatsForLWC {
 
-    private Integer[] count;
-
-    public BoxStatsForLWC() {
-        this.count = new Integer[]{0, 0, 0};
-    }
-
-    //@future(callout=true)
-    //@AuraEnabled(cacheable=false)
-    public static void getStats(){
+    @AuraEnabled(cacheable=false)
+    public static List<BoxStats> getStatsFromHeroku(){
         try {
             BoxCounterApiService__c cred = CalloutToHeroku.getCred();
             HttpRequest request = new HttpRequest();
@@ -20,8 +13,9 @@ public with sharing class BoxStatsForLWC {
             request.setHeader('Accept', 'application/json'); 
             HttpResponse response = new HTTP().send(request);
             String body = response.getBody();
-            List<BoxStats> l = BoxStats.parse(body);
-            System.debug(l[0]);
+            List<BoxStats> statsList = BoxStats.parse(body);
+            System.debug(statsList);
+            return statsList;
         } catch (Exception e) {
             throw new AuraHandledException(e.getMessage());
         }
