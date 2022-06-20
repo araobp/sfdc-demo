@@ -47,6 +47,7 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [Asynchronous Apex](https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex)
 - [Lightning Web Components and Salesforce Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning-web-components-and-salesforce-data)
 - [Package.xml Metadata Management](https://trailhead.salesforce.com/ja/content/learn/modules/package-xml)
+- [Unlocked Packages for Customers](https://trailhead.salesforce.com/en/content/learn/modules/unlocked-packages-for-customers)
 - [Forcecraft - Visualize your Salesforce Org in Minecraft!](https://youtu.be/eb3GgM1o_8I).
 
 
