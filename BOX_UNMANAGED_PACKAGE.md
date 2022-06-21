@@ -4,6 +4,11 @@
 
 ## "box" LWC and its accompanying Apex classes
 
+```
+  Frontend                       Backend
+  [box LWC]----(Internet)----[BoxController]--[Box object]
+```
+
 #### LWC
 
 - [box](./ThreeBoxes/Box/main/default/lwc/box)
@@ -15,6 +20,11 @@
 ---
 
 ## "boxStats" LWC and its accompanying Apex classes
+
+```
+    Frontend                          Backend              "box_stats" table on PosrgreSQL
+  [boxStats LWC]----(Internet)----[BoxStatsForLWC]----REST-----[Heroku]
+```
 
 #### LWC
 
@@ -28,6 +38,11 @@
 ---
 
 ## Apex classes for CLI as a connected app
+
+```
+  Frontend                 Backend
+  [CLI]----(Internet)----[BoxManager/BoxStatus]--[Box object]
+```
 
 - [BoxManager](./ThreeBoxes/Box/main/default/classes/BoxManager.cls)
 - [BoxStatus](./ThreeBoxes/Box/main/default/classes/BoxStatus.cls)
