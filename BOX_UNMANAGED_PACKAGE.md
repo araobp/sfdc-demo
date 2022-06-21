@@ -19,6 +19,7 @@
 #### Apex
 
 - [BoxStatsForLWC](./ThreeBoxes/Box/main/default/classes/BoxStatsForLWC.cls)
+- [BoxStats](./ThreeBoxes/Box/main/default/classes/BoxStats.cls)
 
 ## Apex classes for CLI as a connected app
 
