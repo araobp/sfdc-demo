@@ -46,7 +46,13 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [Set up authorization for a connected app](https://developer.salesforce.com/docs/atlas.en-us.224.0.chatterapi.meta/chatterapi/CR_quickstart_oauth.htm?_ga=2.5544307.1994630704.1652930169-91847829.1642576173)
 - [Asynchronous Apex](https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex)
 - [Lightning Web Components and Salesforce Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning-web-components-and-salesforce-data)
+- [Unlocked Packages for Customers](https://trailhead.salesforce.com/en/content/learn/modules/unlocked-packages-for-customers)
 - [Forcecraft - Visualize your Salesforce Org in Minecraft!](https://youtu.be/eb3GgM1o_8I).
+- [Trailhead Sample Gallery](https://trailhead.salesforce.com/en/sample-gallery)
+
+#### SFDX Cheat Sheet
+
+- [Salesforce SFDX Cheat Sheet](https://gist.github.com/jsmithdev/65d8b5892de2ca6a7d85ee8a7b3f0355)
 
 #### Tools
 
@@ -54,6 +60,8 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [JSON2APEX](https://json2apex.herokuapp.com/)
 
 #### Salesforce tips
+
+=> [Wiki](https://github.com/araobp/sfdc-demo/wiki)
 
 - [{"error":"invalid_grant","error_description":"authentication failure"}](https://salesforce.stackexchange.com/questions/339872/errorinvalid-grant-error-descriptionauthentication-failure)
 - [View instance information for your Salesforce Organization](https://help.salesforce.com/s/articleView?id=000322728&type=1)
