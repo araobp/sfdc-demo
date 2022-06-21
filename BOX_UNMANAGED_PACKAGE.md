@@ -31,7 +31,7 @@
 
 - [BoxManager](./ThreeBoxes/Box/main/default/classes/BoxManager.cls)
 - [BoxStatus](./ThreeBoxes/Box/main/default/classes/BoxStatus.cls)
-- [CLI](https://github.com/araobp/sfdc-demo/tree/main/connected_app/cli)
+- [CLI](./connected_app/BOX_CONNECTED_APP.md)
 
 ---
 
