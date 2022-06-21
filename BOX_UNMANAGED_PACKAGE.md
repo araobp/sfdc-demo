@@ -38,19 +38,6 @@
 
 ---
 
-## Apex classes for CLI as a connected app
-
-```
-  Frontend                 Backend
-  [CLI]----(Internet)----[BoxManager/BoxStatus]--[Box object]
-```
-
-- [BoxManager](./ThreeBoxes/Box/main/default/classes/BoxManager.cls)
-- [BoxStatus](./ThreeBoxes/Box/main/default/classes/BoxStatus.cls)
-- [CLI](./connected_app/BOX_CONNECTED_APP.md)
-
----
-
 ## Apex callout to Heroku initiated by trigger
 
 ```
@@ -69,6 +56,19 @@ My Heroku dyno starts sleeping after the duration of 30 minutes inactivity. That
 #### Apex trigger
 
 - [BoxTrigger](./ThreeBoxes/Box/main/default/triggers/BoxTrigger.trigger)
+
+---
+
+## Apex classes for CLI as a connected app
+
+```
+  Frontend                 Backend
+  [CLI]----(Internet)----[BoxManager/BoxStatus]--[Box object]
+```
+
+- [BoxManager](./ThreeBoxes/Box/main/default/classes/BoxManager.cls)
+- [BoxStatus](./ThreeBoxes/Box/main/default/classes/BoxStatus.cls)
+- [CLI](./BOX_CONNECTED_APP.md)
 
 --- 
 
