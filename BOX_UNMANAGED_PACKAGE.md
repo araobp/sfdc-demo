@@ -38,4 +38,4 @@
 
 ## Permission sets for users of "Box" unmanaged package
 
--[Box](./ThreeBoxes/Box/main/default/permissionsets/Box.permissionset-meta.xml)
+- [Box](./ThreeBoxes/Box/main/default/permissionsets/Box.permissionset-meta.xml)
