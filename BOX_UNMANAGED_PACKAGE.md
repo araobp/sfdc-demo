@@ -24,6 +24,7 @@
 ```
     Frontend                          Backend              "box_stats" table on PosrgreSQL
   [boxStats LWC]----(Internet)----[BoxStatsForLWC]----REST-----[Heroku]
+                                               Synchronous callout
 ```
 
 #### LWC
