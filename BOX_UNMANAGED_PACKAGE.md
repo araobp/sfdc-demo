@@ -1,14 +1,24 @@
 # "Box" unmanaged package on my dev edition
 
-## "Box" LWC and its accompanying Apex classes
+## "box" LWC and its accompanying Apex classes
 
 #### LWC
 
-- [Box](./ThreeBoxes/Box/main/default/lwc/box)
+- [box](./ThreeBoxes/Box/main/default/lwc/box)
 
 #### Apex
 
 - [BoxController](./ThreeBoxes/Box/main/default/classes/BoxController.cls)
+
+## "boxStats" LWC and its accompanying Apex classes
+
+#### LWC
+
+- [boxStats](./ThreeBoxes/Box/main/default/lwc/boxStats)
+
+#### Apex
+
+- [BoxStatsForLWC](./ThreeBoxes/Box/main/default/classes/BoxStatsForLWC.cls)
 
 ## Apex classes for CLI as a connected app
 
