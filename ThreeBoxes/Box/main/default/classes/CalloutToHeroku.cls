@@ -1,4 +1,4 @@
-public with sharing class CalloutToHeroku {
+public with sharing class CalloutToHeroku implements Schedulable {
     @future(callout=true)
     public static void incrementCounter(Decimal id) {
         BoxCounterApiService__c cred = getCred();
@@ -14,4 +14,15 @@ public with sharing class CalloutToHeroku {
     public static BoxCounterApiService__c getCred() {
         return [SELECT EndPoint__c, Username__c, Password__c FROM BoxCounterApiService__c WHERE Name = 'Heroku'];
     }
+    
+    public void execute(SchedulableContext ctx) {
+        BoxCounterApiService__c cred = getCred();
+        HttpRequest request = new HttpRequest();
+        request.setEndPoint(cred.Endpoint__c + 'reset');
+        request.setMethod('PATCH');
+        Blob headerValue = Blob.valueOf(cred.Username__c + ':' + cred.Password__c);
+        String authorizationHeader = 'Basic ' + EncodingUtil.base64Encode(headerValue);
+        request.setHeader('Authorization', authorizationHeader);   
+        HttpResponse response = new HTTP().send(request);        
+    }    
 }
