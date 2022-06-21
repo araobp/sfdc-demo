@@ -4,6 +4,11 @@
 
 ## "box" LWC and its accompanying Apex classes
 
+```
+  Frontend                       Backend
+  [box LWC]----(Internet)----[BoxController]--[Box object]
+```
+
 #### LWC
 
 - [box](./ThreeBoxes/Box/main/default/lwc/box)
@@ -16,6 +21,12 @@
 
 ## "boxStats" LWC and its accompanying Apex classes
 
+```
+    Frontend                          Backend              "box_stats" table on PosrgreSQL
+  [boxStats LWC]----(Internet)----[BoxStatsForLWC]----REST-----[Heroku]
+                                               Synchronous callout
+```
+
 #### LWC
 
 - [boxStats](./ThreeBoxes/Box/main/default/lwc/boxStats)
@@ -27,15 +38,16 @@
 
 ---
 
-## Apex classes for CLI as a connected app
+## Apex callout to Heroku initiated by trigger
 
-- [BoxManager](./ThreeBoxes/Box/main/default/classes/BoxManager.cls)
-- [BoxStatus](./ThreeBoxes/Box/main/default/classes/BoxStatus.cls)
-- [CLI](./connected_app/BOX_CONNECTED_APP.md)
+```
+                                        Trigger
+/box/{id__c}/count                      APEX code
+    [Heroku] <---- REST PATCH ----- [Salesforce Cloud]
 
----
+```
 
-## Apex trigger to Heroku
+My Heroku dyno starts sleeping after the duration of 30 minutes inactivity. That is the reason why the callout script in this repo MUST be asynchronous: either @future(callout=true) or Queueable Apex.
 
 #### Apex callout (asynchronous, @future(callout=true))
 
@@ -44,6 +56,19 @@
 #### Apex trigger
 
 - [BoxTrigger](./ThreeBoxes/Box/main/default/triggers/BoxTrigger.trigger)
+
+---
+
+## Apex classes for CLI as a connected app
+
+```
+  Frontend                 Backend
+  [CLI]----(Internet)----[BoxManager/BoxStatus]--[Box object]
+```
+
+- [BoxManager](./ThreeBoxes/Box/main/default/classes/BoxManager.cls)
+- [BoxStatus](./ThreeBoxes/Box/main/default/classes/BoxStatus.cls)
+- [CLI](./BOX_CONNECTED_APP.md)
 
 --- 
 
