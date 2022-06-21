@@ -33,9 +33,7 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [spring-api](https://github.com/araobp/spring-api) -- SpringBoot-based backend as API server with PostgreSQL
 - [react-api](https://github.com/araobp/react-api) -- React-based fronend for manipulating database remotely
 - [unity-api](https://github.com/araobp/unity-api) -- Unity-based frontend for 3D visualization
-- ["Box" Lightning Web Component and its accompanying APEX code](box/force-app/main/default)
-- [CLI("Box" connected app)](./connected_app/BOX_CONNECTED_APP.md)
-- [APEX REST Callout to Heroku](./connected_app/REST_CALLOUT_TO_HEROKU.md)
+- ["Box" unmanaged package on my dev edition](./BOX_UNMANAGED_PACKAGE.md)
 
 ## References
 
