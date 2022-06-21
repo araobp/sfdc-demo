@@ -61,9 +61,10 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 
 #### Salesforce tips
 
+=> [Wiki](https://github.com/araobp/sfdc-demo/wiki)
+
 - [{"error":"invalid_grant","error_description":"authentication failure"}](https://salesforce.stackexchange.com/questions/339872/errorinvalid-grant-error-descriptionauthentication-failure)
 - [View instance information for your Salesforce Organization](https://help.salesforce.com/s/articleView?id=000322728&type=1)
-- [Retrieve Unmanaged package](https://developer.salesforce.com/forums/?id=9062I000000IWbSQAW)
 
 #### Salesforce-SAP integration
 
