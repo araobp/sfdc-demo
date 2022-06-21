@@ -4,12 +4,11 @@
 
 #### LWC
 
-- [./ThreeBoxes/Box/main/default/lwc/box]
+- (./ThreeBoxes/Box/main/default/lwc/box)
 
 #### Apex
 
-- [./ThreeBoxes/Box/main/default/classes/BoxController.cls]
-
+- (./ThreeBoxes/Box/main/default/classes/BoxController.cls)
 
 ## Apex classes for CLI as a connected app
 
