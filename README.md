@@ -48,6 +48,7 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [Lightning Web Components and Salesforce Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning-web-components-and-salesforce-data)
 - [Unlocked Packages for Customers](https://trailhead.salesforce.com/en/content/learn/modules/unlocked-packages-for-customers)
 - [Forcecraft - Visualize your Salesforce Org in Minecraft!](https://youtu.be/eb3GgM1o_8I).
+- [Trailhead Sample Gallery](https://trailhead.salesforce.com/en/sample-gallery)
 
 #### SFDX Cheat Sheet
 
