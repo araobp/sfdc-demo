@@ -49,7 +49,7 @@
 
 My Heroku dyno starts sleeping after the duration of 30 minutes inactivity. That is the reason why the callout script in this repo MUST be asynchronous: either @future(callout=true) or Queueable Apex.
 
-#### Apex callout (asynchronous, @future(callout=true))
+#### Apex callout (asynchronous/@future(callout=true) and scheduleable)
 
 - [CalloutToHeroku](./ThreeBoxes/Box/main/default/classes/CalloutToHeroku.cls)
 
