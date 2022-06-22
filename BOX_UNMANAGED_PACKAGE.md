@@ -57,6 +57,10 @@ My Heroku dyno starts sleeping after the duration of 30 minutes inactivity. That
 
 - [BoxTrigger](./ThreeBoxes/Box/main/default/triggers/BoxTrigger.trigger)
 
+#### Apex scheduled job
+
+- [CalloutToHerokuScheduled](./ThreeBoxes/Box/main/default/classes/CalloutToHerokuScheduled.cls)
+
 ---
 
 ## Apex classes for CLI as a connected app
