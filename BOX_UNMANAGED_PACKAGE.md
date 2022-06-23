@@ -100,4 +100,6 @@ My Heroku dyno starts sleeping after the duration of 30 minutes inactivity. That
 $ java -jar target/emp-connector-0.0.1-SNAPSHOT-phat.jar $DEV_EDITION_USERNAME $DEV_EDITION_PASSWORD$DEV_EDITION_SECURITY_TOKEN /data/Box__ChangeEvent
 
 Subscribed: Subscription [/data/Box__ChangeEvent:-1]
+Received:
+{"schema":"bDnzY1EFkTYEKV0HYghVyg","payload":{"LastModifiedDate":"2022-06-23T15:21:44.000Z","Move__c":true,"ChangeEventHeader":{"commitNumber":286001238094,"commitUser":"0055i000003uX2eAAE","sequenceNumber":1,"entityName":"Box__c","changeType":"UPDATE","changedFields":["LastModifiedDate","Move__c"],"changeOrigin":"","transactionKey":"00026831-c8e1-13c6-e65f-c3b849d556ee","commitTimestamp":1655997704000,"recordIds":["a005i000004XJGIAA4"]}},"event":{"replayId":8407465}}
 ```
