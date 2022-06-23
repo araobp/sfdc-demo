@@ -83,3 +83,21 @@ My Heroku dyno starts sleeping after the duration of 30 minutes inactivity. That
 ## Permission sets for users of "Box" unmanaged package
 
 - [Box](./ThreeBoxes/Box/main/default/permissionsets/Box.permissionset-meta.xml)
+
+---
+
+## Making use of EMP Connector (CometD-based)
+
+
+#### References
+
+- [Subsribe to an Event Channel](https://trailhead.salesforce.com/en/content/learn/modules/change-data-capture/subscribe-to-events)
+- [EMP connector example](https://github.com/forcedotcom/EMP-Connector)
+
+#### Try out
+
+```
+$ java -jar target/emp-connector-0.0.1-SNAPSHOT-phat.jar $DEV_EDITION_USERNAME $DEV_EDITION_PASSWORD$DEV_EDITION_SECURITY_TOKEN /data/Box__ChangeEvent
+
+Subscribed: Subscription [/data/Box__ChangeEvent:-1]
+```
