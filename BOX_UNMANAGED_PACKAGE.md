@@ -12,7 +12,7 @@
 #### LWC
 
 - [box](./ThreeBoxes/Box/main/default/lwc/box) -- periodic polling to update box statuses
-- [boxCDC](./ThreeBoxes/Box/main/default/lwc/boxCDC) -- pubsub over Kafka to update box statuses
+- [boxCDC](./ThreeBoxes/Box/main/default/lwc/boxCDC) -- pubsub over Kafka to update box statuses (subscription based on Comet long polling)
 
 #### Apex
 
