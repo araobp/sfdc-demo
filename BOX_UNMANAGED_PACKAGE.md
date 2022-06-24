@@ -6,7 +6,9 @@
 
 ```
   Frontend                       Backend
-  [box LWC]----(Internet)----[BoxController]--[Box object]
+  [box LWC]----(Internet)----[BoxController]--[Box object]*
+  
+                        *CDC enabled on the custom object "Box__c"
 ```
 
 #### LWC
