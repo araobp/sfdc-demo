@@ -1,8 +1,8 @@
 # Simple logger for "/data/Box__ChangeEvent" (CDC)
 
-I have enabled CDC on the custom object "Box__c". This markdown page is just to show how easy to subscribe a CDC channel through Salesforce Connector provided by Mulesoft.
+I have enabled CDC on the custom object "Box__c". This markdown page is just to show how easy to subscribe a CDC channel on [Anypoint Studio](https://www.mulesoft.com/platform/studio) through Salesforce Connector provided by Mulesoft.
 
-## Mule flow on [AnypointStudio](https://www.mulesoft.com/platform/studio)
+## Flow on Anypoint Studio
 
 <img src="./doc/AnypointStudio.png" width=700>
 
