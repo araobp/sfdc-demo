@@ -2,6 +2,8 @@
 
 My original Salesforce & Heroku Integration demo. It is very simple.
 
+[My profile on Trailhead](https://trailblazer.me/id/shiny1088001)
+
 ## Architecture
 
 <img src="doc/SalesforceAndHerokuIntegration.png" width=700>
