@@ -3,8 +3,8 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>box</componentName>
-                <identifier>c_box</identifier>
+                <componentName>boxCDC</componentName>
+                <identifier>c_boxCDC</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
