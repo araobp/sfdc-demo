@@ -2,7 +2,7 @@
 
 I have enabled CDC on the custom object "Box__c". This markdown page is just to show how easy to subscribe a CDC channel through Salesforce Connector provided by Mulesoft.
 
-## Mule flow on AnypointStudio
+## Mule flow on [AnypointStudio](https://www.mulesoft.com/platform/studio)
 
 <img src="./doc/AnypointStudio.png" width=700>
 
