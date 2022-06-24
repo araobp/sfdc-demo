@@ -63,6 +63,8 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 
 - [{"error":"invalid_grant","error_description":"authentication failure"}](https://salesforce.stackexchange.com/questions/339872/errorinvalid-grant-error-descriptionauthentication-failure)
 - [View instance information for your Salesforce Organization](https://help.salesforce.com/s/articleView?id=000322728&type=1)
+- [Example: Subscribe to and Replay Events Using a Java Client](https://developer.salesforce.com/docs/atlas.en-us.210.0.api_streaming.meta/api_streaming/code_sample_java_client_intro.htm)
+- [Isolation of Test Data from Organization Data in Unit Tests](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_data_access.htm)
 
 #### Salesforce-SAP integration
 
