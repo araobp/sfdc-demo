@@ -1,6 +1,6 @@
 # Salesforce & Heroku Integration demo
 
-My original Salesforce & Heroku Integration demo. It is very simple.
+My original Salesforce & Heroku Integration demo with a view to Metaverse in near future.
 
 [My profile on Trailhead](https://trailblazer.me/id/shiny1088001)
 
