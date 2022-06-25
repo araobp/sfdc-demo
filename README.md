@@ -16,7 +16,9 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 
 #### "Box" Lightning Web Components and APEX on Salesforce Cloud
 
-<img src="./doc/BoxesOnLWC.png" width=400>
+<img src="./doc/BoxApp.png" width=500>
+
+<img src="./doc/BoxAppMobile.png" width=200>
 
 #### "Boxes" on React
 
