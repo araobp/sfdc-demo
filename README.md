@@ -12,7 +12,7 @@ My original Salesforce & Heroku Integration demo with a view to Metaverse in nea
 
 #### "Box" custom object in list view on Salesforce Cloud
 
-<img src="./doc/BoxListView.png" width=900>
+<img src="./doc/BoxListView.png" width=500>
 
 #### "Box" Lightning Web Components and APEX on Salesforce Cloud
 
