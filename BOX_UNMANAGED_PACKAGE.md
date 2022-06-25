@@ -6,12 +6,15 @@
 
 ```
   Frontend                       Backend
-  [box LWC]----(Internet)----[BoxController]--[Box object]
+  [box LWC]----(Internet)----[BoxController]--[Box object]*
+  
+                        *CDC enabled on the custom object "Box__c"
 ```
 
 #### LWC
 
-- [box](./ThreeBoxes/Box/main/default/lwc/box)
+- [box](./ThreeBoxes/Box/main/default/lwc/box) -- periodic polling to update box statuses
+- [boxCDC(Change Data Capture)](./ThreeBoxes/Box/main/default/lwc/boxCDC) -- pubsub over Kafka to update box statuses (subscription based on Comet long polling)
 
 #### Apex
 

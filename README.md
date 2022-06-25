@@ -2,6 +2,8 @@
 
 My original Salesforce & Heroku Integration demo. It is very simple.
 
+[My profile on Trailhead](https://trailblazer.me/id/shiny1088001)
+
 ## Architecture
 
 <img src="doc/SalesforceAndHerokuIntegration.png" width=700>
@@ -66,6 +68,8 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 - [View instance information for your Salesforce Organization](https://help.salesforce.com/s/articleView?id=000322728&type=1)
 - [Example: Subscribe to and Replay Events Using a Java Client](https://developer.salesforce.com/docs/atlas.en-us.210.0.api_streaming.meta/api_streaming/code_sample_java_client_intro.htm)
 - [Isolation of Test Data from Organization Data in Unit Tests](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_data_access.htm)
+- [How to connect to Salesforce with OAuth v2.0 using the Mulesoft Salesforce Connector
+](https://help.mulesoft.com/s/article/How-to-connect-to-salesforce-with-OAuth2-0-with-the-Mulesoft-Salesforce-Connector)
 
 #### Salesforce-SAP integration
 
