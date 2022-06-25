@@ -22,7 +22,7 @@ My original Salesforce & Heroku Integration demo. It is very simple.
 
 #### "Boxes" on React
 
-<img src="./doc/BoxesOnReact.png" width=400>
+<img src="./doc/BoxesOnReact.png" width=350>
 
 #### "Boxes" on Unity
 
