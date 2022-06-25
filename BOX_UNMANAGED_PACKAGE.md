@@ -13,8 +13,10 @@
 
 #### LWC
 
-- [box](./ThreeBoxes/Box/main/default/lwc/box) -- periodic polling to update box statuses
-- [boxCDC(Change Data Capture)](./ThreeBoxes/Box/main/default/lwc/boxCDC) -- pubsub over Kafka to update box statuses (subscription based on Comet long polling)
+- [box (periodic polling)](./ThreeBoxes/Box/main/default/lwc/box) -- periodic polling to update box statuses
+- [boxCDC (CDC over Event Bus)](./ThreeBoxes/Box/main/default/lwc/boxCDC) -- pubsub over Kafka to update box statuses (subscription based on Comet long polling)
+
+Note: [empApi is not supported in mobile](https://developer.salesforce.com/forums/?id=9062I000000ISDCQA4), so use the periodic polling version for mobile.
 
 #### Apex
 
