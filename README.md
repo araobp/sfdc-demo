@@ -30,7 +30,7 @@ My original Salesforce & Heroku Integration demo with a view to Metaverse in nea
 
 ## Box custom object definition on Salesforce Cloud
 
-<img src="./doc/BoxObject.jpg" width=800>
+<img src="./doc/BoxObject.png" width=700>
 
 ## Projects
 
