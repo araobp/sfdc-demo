@@ -68,6 +68,8 @@ My Heroku dyno starts sleeping after the duration of 30 minutes inactivity. That
 
 #### Apex scheduled job
 
+The Box stats counters on Heroku (on PostgreSQL) are reset every midnight by this scheduled job:
+
 - [CalloutToHerokuScheduled](./ThreeBoxes/Box/main/default/classes/CalloutToHerokuScheduled.cls)
 
 ---
