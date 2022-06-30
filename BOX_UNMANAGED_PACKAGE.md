@@ -58,6 +58,8 @@ Note: [empApi is not supported in mobile](https://developer.salesforce.com/forum
 
 My Heroku dyno starts sleeping after the duration of 30 minutes inactivity. That is the reason why the callout script in this repo MUST be asynchronous: either @future(callout=true) or Queueable Apex.
 
+The Box stats counters on Heroku (on PostgreSQL) are reset every midnight by a Apex scheduled job.
+
 #### Apex callout (asynchronous/@future(callout=true) and scheduleable)
 
 - [CalloutToHeroku](./ThreeBoxes/Box/main/default/classes/CalloutToHeroku.cls)
@@ -67,8 +69,6 @@ My Heroku dyno starts sleeping after the duration of 30 minutes inactivity. That
 - [BoxTrigger](./ThreeBoxes/Box/main/default/triggers/BoxTrigger.trigger)
 
 #### Apex scheduled job
-
-The Box stats counters on Heroku (on PostgreSQL) are reset every midnight by this scheduled job:
 
 - [CalloutToHerokuScheduled](./ThreeBoxes/Box/main/default/classes/CalloutToHerokuScheduled.cls)
 
